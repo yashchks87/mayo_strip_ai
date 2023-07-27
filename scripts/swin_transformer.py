@@ -59,6 +59,7 @@ class WindowAttention(tf.keras.layers.Layer):
             2 * self.window_size[1] - 1
         )
         self.relative_position_bias_table = self.add_weight(
+            name='relative_bias',
             shape=(num_window_elements, self.num_heads),
             initializer=tf.initializers.Zeros(),
             trainable=True,
