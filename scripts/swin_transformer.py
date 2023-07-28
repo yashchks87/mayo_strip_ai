@@ -345,7 +345,7 @@ def final_model(input_shape,
     swin_model = tf.keras.Model(input, output)
     swin_model.compile(
         loss = tf.keras.losses.BinaryCrossentropy(),
-        optimizer = tf.keras.optimizers.SGD(),
+        optimizer = tf.keras.optimizers.Adam(),
         metrics = [
             tf.keras.metrics.Accuracy(name = 'accuracy'),
             tf.keras.metrics.TruePositives(name = 'tp'),
