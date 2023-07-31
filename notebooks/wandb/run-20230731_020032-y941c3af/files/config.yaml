@@ -1,0 +1,118 @@
+wandb_version: 1
+
+input_shape:
+  desc: null
+  value:
+  - 256
+  - 256
+  - 3
+patch_size:
+  desc: null
+  value:
+  - 2
+  - 2
+num_patch_x:
+  desc: null
+  value: 128
+num_patch_y:
+  desc: null
+  value: 128
+embed_dim:
+  desc: null
+  value: 32
+num_heads:
+  desc: null
+  value: 4
+window_size:
+  desc: null
+  value: 2
+dropout_rate:
+  desc: null
+  value: 0.0
+qkv_bias:
+  desc: null
+  value: true
+num_mlp:
+  desc: null
+  value: 32
+shift_size:
+  desc: null
+  value: 1
+optim:
+  desc: null
+  value: <keras.optimizers.optimizer_v2.adam.Adam object at 0x7f35877cb1f0>
+batch_size:
+  desc: null
+  value: 10
+augmentations:
+  desc: null
+  value:
+  - Random flip left-right
+  - Gradient clipping 1.0
+label_smoothing:
+  desc: null
+  value: 0.03
+_wandb:
+  desc: null
+  value:
+    python_version: 3.9.16
+    cli_version: 0.15.7
+    framework: keras
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    start_time: 1690768836.725732
+    t:
+      1:
+      - 2
+      - 3
+      - 5
+      - 53
+      - 55
+      2:
+      - 2
+      - 3
+      - 5
+      - 53
+      - 55
+      3:
+      - 7
+      - 16
+      - 23
+      - 38
+      4: 3.9.16
+      5: 0.15.7
+      8:
+      - 1
+      - 5
+    m:
+    - 1: epoch/epoch
+      6:
+      - 3
+    - 1: epoch/loss
+      5: 1
+      6:
+      - 1
+    - 1: epoch/prec
+      5: 1
+      6:
+      - 1
+    - 1: epoch/rec
+      5: 1
+      6:
+      - 1
+    - 1: epoch/val_loss
+      5: 1
+      6:
+      - 1
+    - 1: epoch/val_prec
+      5: 1
+      6:
+      - 1
+    - 1: epoch/val_rec
+      5: 1
+      6:
+      - 1
+    - 1: epoch/learning_rate
+      5: 1
+      6:
+      - 1

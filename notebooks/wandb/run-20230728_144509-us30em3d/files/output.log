@@ -1,0 +1,484 @@
+2023-07-28 14:45:10.596451: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:776] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorSliceDataset/_2"
+op: "TensorSliceDataset"
+input: "Placeholder/_0"
+input: "Placeholder/_1"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_STRING
+      type: DT_INT32
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 680
+  }
+}
+attr {
+  key: "is_files"
+  value {
+    b: false
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\025TensorSliceDataset:24"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+      }
+      shape {
+      }
+    }
+  }
+}
+attr {
+  key: "replicate_on_split"
+  value {
+    b: false
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_STRING
+        }
+      }
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_INT32
+        }
+      }
+    }
+  }
+}
+Epoch 1/100
+  6/170 [>.............................] - ETA: 57s - loss: 3.7341 - accuracy: 0.0833 - tp: 15.0000 - fp: 5.0000WARNING:tensorflow:Callback method `on_train_batch_end` is slow compared to the batch time (batch time: 0.1522s vs `on_train_batch_end` time: 0.1825s). Check your callbacks.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+167/170 [============================>.] - ETA: 1s - loss: 0.8112 - accuracy: 0.0030 - tp: 435.0000 - fp: 160.0000
+2023-07-28 14:46:17.764747: W tensorflow/core/grappler/optimizers/data/auto_shard.cc:776] AUTO sharding policy will apply DATA sharding policy as it failed to apply FILE sharding policy because of the following reason: Found an unshardable source dataset: name: "TensorSliceDataset/_2"
+op: "TensorSliceDataset"
+input: "Placeholder/_0"
+input: "Placeholder/_1"
+attr {
+  key: "Toutput_types"
+  value {
+    list {
+      type: DT_STRING
+      type: DT_INT32
+    }
+  }
+}
+attr {
+  key: "_cardinality"
+  value {
+    i: 36
+  }
+}
+attr {
+  key: "is_files"
+  value {
+    b: false
+  }
+}
+attr {
+  key: "metadata"
+  value {
+    s: "\n\025TensorSliceDataset:32"
+  }
+}
+attr {
+  key: "output_shapes"
+  value {
+    list {
+      shape {
+      }
+      shape {
+      }
+    }
+  }
+}
+attr {
+  key: "replicate_on_split"
+  value {
+    b: false
+  }
+}
+experimental_type {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_DATASET
+    args {
+      type_id: TFT_PRODUCT
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_STRING
+        }
+      }
+      args {
+        type_id: TFT_TENSOR
+        args {
+          type_id: TFT_INT32
+        }
+      }
+    }
+  }
+
+170/170 [==============================] - 71s 374ms/step - loss: 0.8101 - accuracy: 0.0029 - tp: 440.0000 - fp: 163.0000 - val_loss: 0.6324 - val_accuracy: 0.0000e+00 - val_tp: 27.0000 - val_fp: 9.0000
+Epoch 2/100
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+170/170 [==============================] - 61s 358ms/step - loss: 0.7159 - accuracy: 0.0000e+00 - tp: 422.0000 - fp: 161.0000 - val_loss: 0.5756 - val_accuracy: 0.0000e+00 - val_tp: 27.0000 - val_fp: 9.0000
+Epoch 3/100
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+170/170 [==============================] - 61s 358ms/step - loss: 0.7224 - accuracy: 0.0000e+00 - tp: 410.0000 - fp: 144.0000 - val_loss: 0.7623 - val_accuracy: 0.0000e+00 - val_tp: 0.0000e+00 - val_fp: 0.0000e+00
+Epoch 4/100
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+170/170 [==============================] - 61s 358ms/step - loss: 0.6087 - accuracy: 0.0000e+00 - tp: 484.0000 - fp: 182.0000 - val_loss: 0.6870 - val_accuracy: 0.0000e+00 - val_tp: 23.0000 - val_fp: 3.0000
+Epoch 5/100
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+170/170 [==============================] - 61s 359ms/step - loss: 0.6412 - accuracy: 0.0000e+00 - tp: 477.0000 - fp: 188.0000 - val_loss: 0.5706 - val_accuracy: 0.0000e+00 - val_tp: 27.0000 - val_fp: 9.0000
+Epoch 6/100
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+170/170 [==============================] - 61s 360ms/step - loss: 0.6229 - accuracy: 0.0000e+00 - tp: 487.0000 - fp: 166.0000 - val_loss: 0.5792 - val_accuracy: 0.0000e+00 - val_tp: 27.0000 - val_fp: 9.0000
+Epoch 7/100
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+170/170 [==============================] - 61s 358ms/step - loss: 0.6136 - accuracy: 0.0000e+00 - tp: 476.0000 - fp: 182.0000 - val_loss: 0.5433 - val_accuracy: 0.0000e+00 - val_tp: 27.0000 - val_fp: 9.0000
+Epoch 8/100
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+170/170 [==============================] - 61s 359ms/step - loss: 0.5959 - accuracy: 0.0000e+00 - tp: 495.0000 - fp: 185.0000 - val_loss: 0.5846 - val_accuracy: 0.0000e+00 - val_tp: 27.0000 - val_fp: 9.0000
+Epoch 9/100
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+170/170 [==============================] - 61s 360ms/step - loss: 0.5867 - accuracy: 0.0000e+00 - tp: 493.0000 - fp: 186.0000 - val_loss: 0.7215 - val_accuracy: 0.0000e+00 - val_tp: 27.0000 - val_fp: 9.0000
+Epoch 10/100
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+170/170 [==============================] - 61s 360ms/step - loss: 0.5982 - accuracy: 0.0000e+00 - tp: 456.0000 - fp: 168.0000 - val_loss: 0.5390 - val_accuracy: 0.0000e+00 - val_tp: 27.0000 - val_fp: 9.0000
+Epoch 11/100
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+170/170 [==============================] - 61s 358ms/step - loss: 0.4495 - accuracy: 0.0000e+00 - tp: 490.0000 - fp: 119.0000 - val_loss: 0.4552 - val_accuracy: 0.0000e+00 - val_tp: 26.0000 - val_fp: 7.0000
+Epoch 12/100
+
+

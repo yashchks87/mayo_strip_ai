@@ -344,12 +344,11 @@ def final_model(input_shape,
 
     swin_model = tf.keras.Model(input, output)
     swin_model.compile(
-        loss = tf.keras.losses.BinaryCrossentropy(),
-        optimizer = tf.keras.optimizers.Adam(),
+        loss = tf.keras.losses.BinaryCrossentropy(label_smoothing = 0.03),
+        optimizer = tf.keras.optimizers.Adam(clipvalue = 1.0),
         metrics = [
-            tf.keras.metrics.Accuracy(name = 'accuracy'),
-            tf.keras.metrics.TruePositives(name = 'tp'),
-            tf.keras.metrics.FalsePositives(name = 'fp')
+            tf.keras.metrics.Precision(name='prec'),
+            tf.keras.metrics.Recall(name='rec')
         ]
     )
     return swin_model

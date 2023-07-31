@@ -1,0 +1,668 @@
+2023-07-30 22:30:35,509 INFO    StreamThr :3526 [internal.py:wandb_internal():86] W&B internal server running at pid: 3526, started at: 2023-07-30 22:30:35.508934
+2023-07-30 22:30:35,511 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status
+2023-07-30 22:30:35,527 INFO    WriterThread:3526 [datastore.py:open_for_write():85] open: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/run-w1sczv06.wandb
+2023-07-30 22:30:35,527 DEBUG   SenderThread:3526 [sender.py:send():379] send: header
+2023-07-30 22:30:35,583 DEBUG   SenderThread:3526 [sender.py:send():379] send: run
+2023-07-30 22:30:35,905 INFO    SenderThread:3526 [dir_watcher.py:__init__():211] watching files in: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files
+2023-07-30 22:30:35,905 INFO    SenderThread:3526 [sender.py:_start_run_threads():1122] run started: w1sczv06 with start time 1690756235.51056
+2023-07-30 22:30:35,908 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: summary_record
+2023-07-30 22:30:35,909 INFO    SenderThread:3526 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-07-30 22:30:35,915 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: check_version
+2023-07-30 22:30:35,915 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: check_version
+2023-07-30 22:30:35,954 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: run_start
+2023-07-30 22:30:35,963 DEBUG   HandlerThread:3526 [system_info.py:__init__():31] System info init
+2023-07-30 22:30:35,963 DEBUG   HandlerThread:3526 [system_info.py:__init__():46] System info init done
+2023-07-30 22:30:35,963 INFO    HandlerThread:3526 [system_monitor.py:start():181] Starting system monitor
+2023-07-30 22:30:35,964 INFO    SystemMonitor:3526 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-30 22:30:35,964 INFO    HandlerThread:3526 [system_monitor.py:probe():201] Collecting system info
+2023-07-30 22:30:35,967 INFO    SystemMonitor:3526 [interfaces.py:start():190] Started cpu monitoring
+2023-07-30 22:30:35,970 INFO    SystemMonitor:3526 [interfaces.py:start():190] Started disk monitoring
+2023-07-30 22:30:35,970 INFO    SystemMonitor:3526 [interfaces.py:start():190] Started gpu monitoring
+2023-07-30 22:30:35,971 INFO    SystemMonitor:3526 [interfaces.py:start():190] Started memory monitoring
+2023-07-30 22:30:35,971 INFO    SystemMonitor:3526 [interfaces.py:start():190] Started network monitoring
+2023-07-30 22:30:35,973 DEBUG   HandlerThread:3526 [system_info.py:probe():195] Probing system
+2023-07-30 22:30:35,981 DEBUG   HandlerThread:3526 [system_info.py:_probe_git():180] Probing git
+2023-07-30 22:30:35,994 DEBUG   HandlerThread:3526 [system_info.py:_probe_git():188] Probing git done
+2023-07-30 22:30:35,994 DEBUG   HandlerThread:3526 [system_info.py:probe():240] Probing system done
+2023-07-30 22:30:35,994 DEBUG   HandlerThread:3526 [system_monitor.py:probe():210] {'os': 'Linux-5.4.0-153-generic-x86_64-with-glibc2.31', 'python': '3.9.16', 'heartbeatAt': '2023-07-30T22:30:35.973347', 'startedAt': '2023-07-30T22:30:35.501586', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'https://github.com/yashchks87/mayo_strip_ai.git', 'commit': '5ac09c486afb14e1d06306faabeea1481104219d'}, 'email': 'yashchks87@gmail.com', 'root': '/home/paperspace/Documents/mayo_strip_ai', 'host': 'ps2sxr1b9', 'username': 'paperspace', 'executable': '/home/paperspace/Documents/tensor_env/bin/python', 'cpu_count': 8, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2599.9500000000003, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2599.95, 'min': 0.0, 'max': 0.0}, {'current': 2599.95, 'min': 0.0, 'max': 0.0}, {'current': 2599.95, 'min': 0.0, 'max': 0.0}, {'current': 2599.95, 'min': 0.0, 'max': 0.0}, {'current': 2599.95, 'min': 0.0, 'max': 0.0}, {'current': 2599.95, 'min': 0.0, 'max': 0.0}, {'current': 2599.95, 'min': 0.0, 'max': 0.0}, {'current': 2599.95, 'min': 0.0, 'max': 0.0}], 'disk': {'total': 984.173267364502, 'used': 722.6909713745117}, 'gpu': 'Quadro P4000', 'gpu_count': 1, 'gpu_devices': [{'name': 'Quadro P4000', 'memory_total': 8589934592}], 'memory': {'total': 29.369911193847656}}
+2023-07-30 22:30:35,994 INFO    HandlerThread:3526 [system_monitor.py:probe():211] Finished collecting system info
+2023-07-30 22:30:35,994 INFO    HandlerThread:3526 [system_monitor.py:probe():214] Publishing system info
+2023-07-30 22:30:35,994 DEBUG   HandlerThread:3526 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-07-30 22:30:35,995 DEBUG   HandlerThread:3526 [system_info.py:_save_pip():67] Saving pip packages done
+2023-07-30 22:30:35,995 INFO    HandlerThread:3526 [system_monitor.py:probe():216] Finished publishing system info
+2023-07-30 22:30:36,005 DEBUG   SenderThread:3526 [sender.py:send():379] send: files
+2023-07-30 22:30:36,005 INFO    SenderThread:3526 [sender.py:_save_file():1376] saving file wandb-metadata.json with policy now
+2023-07-30 22:30:36,020 DEBUG   SenderThread:3526 [sender.py:send():379] send: telemetry
+2023-07-30 22:30:36,021 DEBUG   SenderThread:3526 [sender.py:send():379] send: telemetry
+2023-07-30 22:30:36,021 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-30 22:30:36,022 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: stop_status
+2023-07-30 22:30:36,151 DEBUG   SenderThread:3526 [sender.py:send():379] send: metric
+2023-07-30 22:30:36,151 DEBUG   SenderThread:3526 [sender.py:send():379] send: telemetry
+2023-07-30 22:30:36,151 DEBUG   SenderThread:3526 [sender.py:send():379] send: metric
+2023-07-30 22:30:36,152 WARNING SenderThread:3526 [sender.py:send_metric():1327] Seen metric with glob (shouldn't happen)
+2023-07-30 22:30:36,464 INFO    wandb-upload_0:3526 [upload_job.py:push():131] Uploaded file /tmp/tmpgl07t76dwandb/zhu31x36-wandb-metadata.json
+2023-07-30 22:30:36,907 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_created():272] file/dir created: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:30:36,907 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_created():272] file/dir created: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/requirements.txt
+2023-07-30 22:30:36,907 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_created():272] file/dir created: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/wandb-metadata.json
+2023-07-30 22:30:36,907 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_created():272] file/dir created: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/wandb-summary.json
+2023-07-30 22:30:38,906 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:30:41,283 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:30:44,909 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:30:46,321 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:30:46,910 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:30:48,910 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:30:50,911 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:30:51,019 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-30 22:30:51,020 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: stop_status
+2023-07-30 22:30:51,342 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:30:52,912 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:30:54,913 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:30:56,388 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:30:56,914 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:30:58,915 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:31:00,916 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:31:01,420 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:31:02,917 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:31:04,446 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-30 22:31:04,448 DEBUG   SenderThread:3526 [sender.py:send():379] send: metric
+2023-07-30 22:31:04,449 DEBUG   SenderThread:3526 [sender.py:send():379] send: metric
+2023-07-30 22:31:04,449 DEBUG   SenderThread:3526 [sender.py:send():379] send: metric
+2023-07-30 22:31:04,449 DEBUG   SenderThread:3526 [sender.py:send():379] send: metric
+2023-07-30 22:31:04,449 DEBUG   SenderThread:3526 [sender.py:send():379] send: metric
+2023-07-30 22:31:04,449 DEBUG   SenderThread:3526 [sender.py:send():379] send: metric
+2023-07-30 22:31:04,449 DEBUG   SenderThread:3526 [sender.py:send():379] send: metric
+2023-07-30 22:31:04,449 DEBUG   SenderThread:3526 [sender.py:send():379] send: history
+2023-07-30 22:31:04,449 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: summary_record
+2023-07-30 22:31:04,450 INFO    SenderThread:3526 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-07-30 22:31:04,918 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:31:04,918 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/wandb-summary.json
+2023-07-30 22:31:06,019 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-30 22:31:06,019 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: stop_status
+2023-07-30 22:31:06,449 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:31:06,918 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:31:06,919 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/config.yaml
+2023-07-30 22:31:08,919 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:31:10,920 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:31:11,595 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:31:12,920 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:31:14,921 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:31:16,638 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:31:16,922 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:31:18,923 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:31:20,924 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:31:21,019 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-30 22:31:21,019 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: stop_status
+2023-07-30 22:31:21,688 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:31:22,924 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:31:23,683 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-30 22:31:23,685 DEBUG   SenderThread:3526 [sender.py:send():379] send: history
+2023-07-30 22:31:23,685 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: summary_record
+2023-07-30 22:31:23,686 INFO    SenderThread:3526 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-07-30 22:31:23,925 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/wandb-summary.json
+2023-07-30 22:31:24,925 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:31:26,767 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:31:26,926 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:31:28,927 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:31:30,928 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:31:31,813 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:31:32,929 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:31:34,930 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:31:35,972 DEBUG   SystemMonitor:3526 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-30 22:31:35,973 DEBUG   SenderThread:3526 [sender.py:send():379] send: stats
+2023-07-30 22:31:36,019 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-30 22:31:36,019 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: stop_status
+2023-07-30 22:31:36,882 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:31:36,931 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:31:38,932 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:31:40,932 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:31:41,929 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:31:42,928 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-30 22:31:42,929 DEBUG   SenderThread:3526 [sender.py:send():379] send: history
+2023-07-30 22:31:42,929 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: summary_record
+2023-07-30 22:31:42,930 INFO    SenderThread:3526 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-07-30 22:31:42,933 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:31:42,933 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/wandb-summary.json
+2023-07-30 22:31:44,934 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:31:46,935 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:31:47,001 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:31:48,936 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:31:50,937 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:31:51,019 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-30 22:31:51,019 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: stop_status
+2023-07-30 22:31:52,051 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:31:52,938 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:31:54,938 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:31:56,939 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:31:57,114 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:31:58,940 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:32:00,941 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:32:02,219 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-30 22:32:02,220 DEBUG   SenderThread:3526 [sender.py:send():379] send: history
+2023-07-30 22:32:02,220 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: summary_record
+2023-07-30 22:32:02,221 INFO    SenderThread:3526 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-07-30 22:32:02,221 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:32:02,942 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:32:02,942 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/wandb-summary.json
+2023-07-30 22:32:04,942 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:32:05,973 DEBUG   SenderThread:3526 [sender.py:send():379] send: stats
+2023-07-30 22:32:06,019 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-30 22:32:06,020 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: stop_status
+2023-07-30 22:32:06,944 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:32:07,289 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:32:08,945 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:32:10,946 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:32:12,351 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:32:12,947 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:32:14,948 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:32:16,949 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:32:17,412 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:32:18,950 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:32:20,951 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:32:21,020 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-30 22:32:21,020 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: stop_status
+2023-07-30 22:32:21,468 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-30 22:32:21,469 DEBUG   SenderThread:3526 [sender.py:send():379] send: history
+2023-07-30 22:32:21,469 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: summary_record
+2023-07-30 22:32:21,470 INFO    SenderThread:3526 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-07-30 22:32:21,951 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/wandb-summary.json
+2023-07-30 22:32:22,471 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:32:22,951 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:32:24,952 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:32:26,953 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:32:27,538 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:32:28,954 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:32:30,954 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:32:32,602 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:32:32,955 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:32:34,956 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:32:35,974 DEBUG   SenderThread:3526 [sender.py:send():379] send: stats
+2023-07-30 22:32:36,020 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-30 22:32:36,020 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: stop_status
+2023-07-30 22:32:36,958 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:32:37,688 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:32:38,958 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:32:40,762 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-30 22:32:40,763 DEBUG   SenderThread:3526 [sender.py:send():379] send: history
+2023-07-30 22:32:40,764 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: summary_record
+2023-07-30 22:32:40,764 INFO    SenderThread:3526 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-07-30 22:32:40,959 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:32:40,960 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/wandb-summary.json
+2023-07-30 22:32:42,742 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:32:42,960 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:32:44,961 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:32:46,962 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:32:47,810 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:32:48,962 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:32:50,963 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:32:51,020 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-30 22:32:51,020 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: stop_status
+2023-07-30 22:32:52,869 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:32:52,964 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:32:54,966 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:32:56,967 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:32:57,909 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:32:58,968 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:32:59,995 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-30 22:32:59,997 DEBUG   SenderThread:3526 [sender.py:send():379] send: history
+2023-07-30 22:32:59,997 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: summary_record
+2023-07-30 22:32:59,997 INFO    SenderThread:3526 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-07-30 22:33:00,969 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:33:00,969 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/wandb-summary.json
+2023-07-30 22:33:02,970 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:33:02,980 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:33:04,970 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:33:05,975 DEBUG   SenderThread:3526 [sender.py:send():379] send: stats
+2023-07-30 22:33:06,020 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-30 22:33:06,021 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: stop_status
+2023-07-30 22:33:06,971 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:33:08,049 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:33:08,972 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:33:10,973 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:33:12,973 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:33:13,059 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:33:14,974 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:33:16,975 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:33:18,155 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:33:18,976 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:33:19,389 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-30 22:33:19,390 DEBUG   SenderThread:3526 [sender.py:send():379] send: history
+2023-07-30 22:33:19,390 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: summary_record
+2023-07-30 22:33:19,391 INFO    SenderThread:3526 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-07-30 22:33:19,977 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/wandb-summary.json
+2023-07-30 22:33:20,977 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:33:21,020 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-30 22:33:21,021 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: stop_status
+2023-07-30 22:33:22,978 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:33:23,169 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:33:24,979 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:33:26,980 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:33:28,273 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:33:28,980 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:33:30,981 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:33:32,982 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:33:33,297 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:33:34,983 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:33:35,976 DEBUG   SenderThread:3526 [sender.py:send():379] send: stats
+2023-07-30 22:33:36,021 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-30 22:33:36,022 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: stop_status
+2023-07-30 22:33:36,984 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:33:38,310 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:33:38,861 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-30 22:33:38,862 DEBUG   SenderThread:3526 [sender.py:send():379] send: history
+2023-07-30 22:33:38,862 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: summary_record
+2023-07-30 22:33:38,863 INFO    SenderThread:3526 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-07-30 22:33:38,984 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:33:38,985 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/wandb-summary.json
+2023-07-30 22:33:40,985 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:33:42,987 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:33:43,353 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:33:44,988 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:33:46,989 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:33:48,378 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:33:48,990 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:33:50,990 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:33:51,021 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-30 22:33:51,021 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: stop_status
+2023-07-30 22:33:52,993 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:33:53,403 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:33:54,994 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:33:56,995 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:33:58,400 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-30 22:33:58,402 DEBUG   SenderThread:3526 [sender.py:send():379] send: history
+2023-07-30 22:33:58,402 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: summary_record
+2023-07-30 22:33:58,402 INFO    SenderThread:3526 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-07-30 22:33:58,410 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:33:58,995 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:33:58,996 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/wandb-summary.json
+2023-07-30 22:34:00,996 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:34:02,997 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:34:03,430 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:34:04,998 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:34:05,976 DEBUG   SenderThread:3526 [sender.py:send():379] send: stats
+2023-07-30 22:34:06,021 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-30 22:34:06,021 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: stop_status
+2023-07-30 22:34:06,999 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:34:08,490 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:34:09,000 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:34:11,000 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:34:13,001 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:34:13,507 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:34:15,002 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:34:17,003 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:34:17,978 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-30 22:34:17,980 DEBUG   SenderThread:3526 [sender.py:send():379] send: history
+2023-07-30 22:34:17,980 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: summary_record
+2023-07-30 22:34:17,980 INFO    SenderThread:3526 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-07-30 22:34:18,004 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/wandb-summary.json
+2023-07-30 22:34:18,540 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:34:19,004 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:34:21,005 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:34:21,021 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-30 22:34:21,022 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: stop_status
+2023-07-30 22:34:23,006 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:34:23,591 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:34:25,007 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:34:27,008 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:34:28,629 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:34:29,008 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:34:31,009 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:34:33,010 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:34:33,665 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:34:35,011 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:34:35,977 DEBUG   SenderThread:3526 [sender.py:send():379] send: stats
+2023-07-30 22:34:36,021 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-30 22:34:36,022 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: stop_status
+2023-07-30 22:34:37,012 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:34:37,589 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-30 22:34:37,590 DEBUG   SenderThread:3526 [sender.py:send():379] send: history
+2023-07-30 22:34:37,591 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: summary_record
+2023-07-30 22:34:37,592 INFO    SenderThread:3526 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-07-30 22:34:38,013 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/wandb-summary.json
+2023-07-30 22:34:38,716 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:34:39,013 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:34:41,014 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:34:43,015 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:34:43,767 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:34:45,015 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:34:47,016 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:34:48,812 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:34:49,017 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:34:51,018 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:34:51,021 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-30 22:34:51,022 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: stop_status
+2023-07-30 22:34:53,019 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:34:53,840 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:34:55,020 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:34:57,020 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:34:57,217 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-30 22:34:57,218 DEBUG   SenderThread:3526 [sender.py:send():379] send: history
+2023-07-30 22:34:57,218 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: summary_record
+2023-07-30 22:34:57,219 INFO    SenderThread:3526 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-07-30 22:34:58,021 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/wandb-summary.json
+2023-07-30 22:34:58,892 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:34:59,021 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:35:01,022 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:35:03,023 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:35:03,919 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:35:05,024 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:35:05,978 DEBUG   SenderThread:3526 [sender.py:send():379] send: stats
+2023-07-30 22:35:06,021 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-30 22:35:06,022 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: stop_status
+2023-07-30 22:35:07,026 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:35:08,970 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:35:09,027 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:35:11,028 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:35:13,029 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:35:14,040 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:35:15,030 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:35:16,856 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-30 22:35:16,858 DEBUG   SenderThread:3526 [sender.py:send():379] send: history
+2023-07-30 22:35:16,858 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: summary_record
+2023-07-30 22:35:16,858 INFO    SenderThread:3526 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-07-30 22:35:17,031 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:35:17,031 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/wandb-summary.json
+2023-07-30 22:35:19,032 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:35:19,101 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:35:21,022 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-30 22:35:21,022 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: stop_status
+2023-07-30 22:35:21,033 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:35:23,034 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:35:24,183 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:35:25,034 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:35:27,035 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:35:29,036 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:35:29,214 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:35:31,037 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:35:33,038 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:35:34,260 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:35:35,039 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:35:35,979 DEBUG   SenderThread:3526 [sender.py:send():379] send: stats
+2023-07-30 22:35:36,022 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-30 22:35:36,022 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: stop_status
+2023-07-30 22:35:36,726 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-30 22:35:36,728 DEBUG   SenderThread:3526 [sender.py:send():379] send: history
+2023-07-30 22:35:36,729 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: summary_record
+2023-07-30 22:35:36,729 INFO    SenderThread:3526 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-07-30 22:35:37,039 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:35:37,040 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/wandb-summary.json
+2023-07-30 22:35:39,040 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:35:39,314 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:35:41,041 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:35:43,042 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:35:44,353 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:35:45,043 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:35:47,043 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:35:49,044 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:35:49,439 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:35:51,022 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-30 22:35:51,022 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: stop_status
+2023-07-30 22:35:51,045 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:35:53,046 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:35:54,534 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:35:55,046 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:35:56,446 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-30 22:35:56,447 DEBUG   SenderThread:3526 [sender.py:send():379] send: history
+2023-07-30 22:35:56,448 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: summary_record
+2023-07-30 22:35:56,448 INFO    SenderThread:3526 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-07-30 22:35:57,047 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:35:57,047 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/wandb-summary.json
+2023-07-30 22:35:59,048 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:35:59,592 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:36:01,049 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:36:03,050 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:36:04,642 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:36:05,052 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:36:05,981 DEBUG   SenderThread:3526 [sender.py:send():379] send: stats
+2023-07-30 22:36:06,022 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-30 22:36:06,023 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: stop_status
+2023-07-30 22:36:07,053 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:36:09,054 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:36:09,720 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:36:11,054 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:36:13,055 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:36:14,773 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:36:15,057 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:36:16,104 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-30 22:36:16,105 DEBUG   SenderThread:3526 [sender.py:send():379] send: history
+2023-07-30 22:36:16,105 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: summary_record
+2023-07-30 22:36:16,106 INFO    SenderThread:3526 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-07-30 22:36:17,058 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:36:17,058 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/wandb-summary.json
+2023-07-30 22:36:19,059 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:36:19,861 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:36:21,022 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-30 22:36:21,023 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: stop_status
+2023-07-30 22:36:21,059 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:36:23,060 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:36:24,922 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:36:25,061 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:36:27,062 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:36:29,063 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:36:29,980 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:36:31,063 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:36:33,064 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:36:35,037 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:36:35,065 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:36:35,816 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-30 22:36:35,818 DEBUG   SenderThread:3526 [sender.py:send():379] send: history
+2023-07-30 22:36:35,819 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: summary_record
+2023-07-30 22:36:35,819 INFO    SenderThread:3526 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-07-30 22:36:35,982 DEBUG   SenderThread:3526 [sender.py:send():379] send: stats
+2023-07-30 22:36:36,022 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-30 22:36:36,023 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: stop_status
+2023-07-30 22:36:36,065 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/wandb-summary.json
+2023-07-30 22:36:37,066 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:36:39,067 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:36:40,109 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:36:41,067 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:36:43,072 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:36:45,072 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:36:45,168 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:36:47,073 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:36:49,074 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:36:50,208 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:36:51,022 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-30 22:36:51,023 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: stop_status
+2023-07-30 22:36:51,076 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:36:53,077 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:36:55,078 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:36:55,477 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-30 22:36:55,478 DEBUG   SenderThread:3526 [sender.py:send():379] send: history
+2023-07-30 22:36:55,479 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: summary_record
+2023-07-30 22:36:55,479 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:36:55,480 INFO    SenderThread:3526 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-07-30 22:36:56,079 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/wandb-summary.json
+2023-07-30 22:36:57,079 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:36:59,080 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:37:00,563 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:37:01,081 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:37:03,081 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:37:05,082 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:37:05,639 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:37:05,983 DEBUG   SenderThread:3526 [sender.py:send():379] send: stats
+2023-07-30 22:37:06,022 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-30 22:37:06,023 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: stop_status
+2023-07-30 22:37:07,083 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:37:09,083 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:37:10,686 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:37:11,084 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:37:13,084 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:37:15,085 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:37:15,172 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-30 22:37:15,173 DEBUG   SenderThread:3526 [sender.py:send():379] send: history
+2023-07-30 22:37:15,174 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: summary_record
+2023-07-30 22:37:15,174 INFO    SenderThread:3526 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-07-30 22:37:15,743 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:37:16,086 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/wandb-summary.json
+2023-07-30 22:37:17,086 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:37:19,087 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:37:20,839 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:37:21,023 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-30 22:37:21,023 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: stop_status
+2023-07-30 22:37:21,087 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:37:23,089 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:37:24,086 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: pause
+2023-07-30 22:37:24,086 INFO    HandlerThread:3526 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-07-30 22:37:24,086 INFO    HandlerThread:3526 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-30 22:37:24,086 DEBUG   SystemMonitor:3526 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-30 22:37:24,087 INFO    HandlerThread:3526 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-30 22:37:24,087 DEBUG   SystemMonitor:3526 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-30 22:37:24,087 INFO    HandlerThread:3526 [interfaces.py:finish():202] Joined disk monitor
+2023-07-30 22:37:24,121 INFO    HandlerThread:3526 [interfaces.py:finish():202] Joined gpu monitor
+2023-07-30 22:37:24,121 INFO    HandlerThread:3526 [interfaces.py:finish():202] Joined memory monitor
+2023-07-30 22:37:24,121 INFO    HandlerThread:3526 [interfaces.py:finish():202] Joined network monitor
+2023-07-30 22:37:24,121 DEBUG   SenderThread:3526 [sender.py:send():379] send: stats
+2023-07-30 22:37:25,090 INFO    Thread-12 :3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:37:26,122 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:37:31,123 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:37:36,023 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-30 22:37:36,023 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: stop_status
+2023-07-30 22:37:36,125 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:37:41,126 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:37:46,127 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:37:51,023 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-30 22:37:51,023 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: stop_status
+2023-07-30 22:37:52,122 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:37:57,123 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:38:02,124 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:38:05,354 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: resume
+2023-07-30 22:38:05,354 INFO    HandlerThread:3526 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-07-30 22:38:05,355 INFO    HandlerThread:3526 [system_monitor.py:start():181] Starting system monitor
+2023-07-30 22:38:05,355 INFO    SystemMonitor:3526 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-30 22:38:05,355 INFO    SystemMonitor:3526 [interfaces.py:start():190] Started cpu monitoring
+2023-07-30 22:38:05,358 INFO    SystemMonitor:3526 [interfaces.py:start():190] Started disk monitoring
+2023-07-30 22:38:05,358 INFO    SystemMonitor:3526 [interfaces.py:start():190] Started gpu monitoring
+2023-07-30 22:38:05,358 INFO    SystemMonitor:3526 [interfaces.py:start():190] Started memory monitoring
+2023-07-30 22:38:05,359 INFO    SystemMonitor:3526 [interfaces.py:start():190] Started network monitoring
+2023-07-30 22:38:06,024 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-30 22:38:06,024 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: stop_status
+2023-07-30 22:38:06,202 DEBUG   SenderThread:3526 [sender.py:send():379] send: telemetry
+2023-07-30 22:38:06,203 DEBUG   SenderThread:3526 [sender.py:send():379] send: exit
+2023-07-30 22:38:06,203 INFO    SenderThread:3526 [sender.py:send_exit():584] handling exit code: 0
+2023-07-30 22:38:06,204 INFO    SenderThread:3526 [sender.py:send_exit():586] handling runtime: 409
+2023-07-30 22:38:06,204 INFO    SenderThread:3526 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-07-30 22:38:06,204 INFO    SenderThread:3526 [sender.py:send_exit():592] send defer
+2023-07-30 22:38:06,204 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: defer
+2023-07-30 22:38:06,205 INFO    HandlerThread:3526 [handler.py:handle_request_defer():170] handle defer: 0
+2023-07-30 22:38:06,205 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: defer
+2023-07-30 22:38:06,205 INFO    SenderThread:3526 [sender.py:send_request_defer():608] handle sender defer: 0
+2023-07-30 22:38:06,205 INFO    SenderThread:3526 [sender.py:transition_state():612] send defer: 1
+2023-07-30 22:38:06,206 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: defer
+2023-07-30 22:38:06,207 INFO    HandlerThread:3526 [handler.py:handle_request_defer():170] handle defer: 1
+2023-07-30 22:38:06,207 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: defer
+2023-07-30 22:38:06,207 INFO    SenderThread:3526 [sender.py:send_request_defer():608] handle sender defer: 1
+2023-07-30 22:38:06,207 INFO    SenderThread:3526 [sender.py:transition_state():612] send defer: 2
+2023-07-30 22:38:06,207 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: defer
+2023-07-30 22:38:06,207 INFO    HandlerThread:3526 [handler.py:handle_request_defer():170] handle defer: 2
+2023-07-30 22:38:06,207 INFO    HandlerThread:3526 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-30 22:38:06,207 DEBUG   SystemMonitor:3526 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-30 22:38:06,207 DEBUG   SystemMonitor:3526 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-30 22:38:06,207 DEBUG   SystemMonitor:3526 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-30 22:38:06,208 INFO    HandlerThread:3526 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-30 22:38:06,209 INFO    HandlerThread:3526 [interfaces.py:finish():202] Joined disk monitor
+2023-07-30 22:38:06,248 INFO    HandlerThread:3526 [interfaces.py:finish():202] Joined gpu monitor
+2023-07-30 22:38:06,248 INFO    HandlerThread:3526 [interfaces.py:finish():202] Joined memory monitor
+2023-07-30 22:38:06,248 INFO    HandlerThread:3526 [interfaces.py:finish():202] Joined network monitor
+2023-07-30 22:38:06,249 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: defer
+2023-07-30 22:38:06,249 INFO    SenderThread:3526 [sender.py:send_request_defer():608] handle sender defer: 2
+2023-07-30 22:38:06,249 INFO    SenderThread:3526 [sender.py:transition_state():612] send defer: 3
+2023-07-30 22:38:06,249 DEBUG   SenderThread:3526 [sender.py:send():379] send: stats
+2023-07-30 22:38:06,250 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: defer
+2023-07-30 22:38:06,250 INFO    HandlerThread:3526 [handler.py:handle_request_defer():170] handle defer: 3
+2023-07-30 22:38:06,250 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: defer
+2023-07-30 22:38:06,250 INFO    SenderThread:3526 [sender.py:send_request_defer():608] handle sender defer: 3
+2023-07-30 22:38:06,250 INFO    SenderThread:3526 [sender.py:transition_state():612] send defer: 4
+2023-07-30 22:38:06,251 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: defer
+2023-07-30 22:38:06,251 INFO    HandlerThread:3526 [handler.py:handle_request_defer():170] handle defer: 4
+2023-07-30 22:38:06,251 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: defer
+2023-07-30 22:38:06,252 INFO    SenderThread:3526 [sender.py:send_request_defer():608] handle sender defer: 4
+2023-07-30 22:38:06,252 INFO    SenderThread:3526 [sender.py:transition_state():612] send defer: 5
+2023-07-30 22:38:06,252 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: defer
+2023-07-30 22:38:06,252 INFO    HandlerThread:3526 [handler.py:handle_request_defer():170] handle defer: 5
+2023-07-30 22:38:06,252 DEBUG   SenderThread:3526 [sender.py:send():379] send: summary
+2023-07-30 22:38:06,253 INFO    SenderThread:3526 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-07-30 22:38:06,253 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: defer
+2023-07-30 22:38:06,253 INFO    SenderThread:3526 [sender.py:send_request_defer():608] handle sender defer: 5
+2023-07-30 22:38:06,253 INFO    SenderThread:3526 [sender.py:transition_state():612] send defer: 6
+2023-07-30 22:38:06,253 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: defer
+2023-07-30 22:38:06,253 INFO    HandlerThread:3526 [handler.py:handle_request_defer():170] handle defer: 6
+2023-07-30 22:38:06,254 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: defer
+2023-07-30 22:38:06,254 INFO    SenderThread:3526 [sender.py:send_request_defer():608] handle sender defer: 6
+2023-07-30 22:38:06,258 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: status_report
+2023-07-30 22:38:06,380 INFO    SenderThread:3526 [sender.py:transition_state():612] send defer: 7
+2023-07-30 22:38:06,380 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: defer
+2023-07-30 22:38:06,380 INFO    HandlerThread:3526 [handler.py:handle_request_defer():170] handle defer: 7
+2023-07-30 22:38:06,381 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: defer
+2023-07-30 22:38:06,381 INFO    SenderThread:3526 [sender.py:send_request_defer():608] handle sender defer: 7
+2023-07-30 22:38:06,884 INFO    SenderThread:3526 [sender.py:transition_state():612] send defer: 8
+2023-07-30 22:38:06,884 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: defer
+2023-07-30 22:38:06,885 INFO    HandlerThread:3526 [handler.py:handle_request_defer():170] handle defer: 8
+2023-07-30 22:38:06,885 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: defer
+2023-07-30 22:38:06,885 INFO    SenderThread:3526 [sender.py:send_request_defer():608] handle sender defer: 8
+2023-07-30 22:38:06,885 INFO    SenderThread:3526 [job_builder.py:build():280] Attempting to build job artifact
+2023-07-30 22:38:06,885 INFO    SenderThread:3526 [job_builder.py:build():296] run is notebook based run
+2023-07-30 22:38:06,886 INFO    SenderThread:3526 [job_builder.py:_get_source_type():389] is repo sourced job
+2023-07-30 22:38:06,886 INFO    SenderThread:3526 [sender.py:transition_state():612] send defer: 9
+2023-07-30 22:38:06,886 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: defer
+2023-07-30 22:38:06,886 INFO    HandlerThread:3526 [handler.py:handle_request_defer():170] handle defer: 9
+2023-07-30 22:38:06,886 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: defer
+2023-07-30 22:38:06,887 INFO    SenderThread:3526 [sender.py:send_request_defer():608] handle sender defer: 9
+2023-07-30 22:38:06,887 INFO    SenderThread:3526 [dir_watcher.py:finish():359] shutting down directory watcher
+2023-07-30 22:38:07,098 INFO    SenderThread:3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:38:07,098 INFO    SenderThread:3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/wandb-summary.json
+2023-07-30 22:38:07,098 INFO    SenderThread:3526 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/config.yaml
+2023-07-30 22:38:07,098 INFO    SenderThread:3526 [dir_watcher.py:finish():389] scan: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files
+2023-07-30 22:38:07,098 INFO    SenderThread:3526 [dir_watcher.py:finish():403] scan save: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/config.yaml config.yaml
+2023-07-30 22:38:07,099 INFO    SenderThread:3526 [dir_watcher.py:finish():403] scan save: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/requirements.txt requirements.txt
+2023-07-30 22:38:07,101 INFO    SenderThread:3526 [dir_watcher.py:finish():403] scan save: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log output.log
+2023-07-30 22:38:07,101 INFO    SenderThread:3526 [dir_watcher.py:finish():403] scan save: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/wandb-summary.json wandb-summary.json
+2023-07-30 22:38:07,104 INFO    SenderThread:3526 [dir_watcher.py:finish():403] scan save: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/wandb-metadata.json wandb-metadata.json
+2023-07-30 22:38:07,104 INFO    SenderThread:3526 [sender.py:transition_state():612] send defer: 10
+2023-07-30 22:38:07,104 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: defer
+2023-07-30 22:38:07,104 INFO    HandlerThread:3526 [handler.py:handle_request_defer():170] handle defer: 10
+2023-07-30 22:38:07,105 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: defer
+2023-07-30 22:38:07,105 INFO    SenderThread:3526 [sender.py:send_request_defer():608] handle sender defer: 10
+2023-07-30 22:38:07,105 INFO    SenderThread:3526 [file_pusher.py:finish():159] shutting down file pusher
+2023-07-30 22:38:07,206 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: poll_exit
+2023-07-30 22:38:07,206 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: poll_exit
+2023-07-30 22:38:07,445 INFO    wandb-upload_0:3526 [upload_job.py:push():131] Uploaded file /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/config.yaml
+2023-07-30 22:38:07,485 INFO    wandb-upload_3:3526 [upload_job.py:push():131] Uploaded file /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/wandb-summary.json
+2023-07-30 22:38:07,521 INFO    wandb-upload_2:3526 [upload_job.py:push():131] Uploaded file /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/output.log
+2023-07-30 22:38:07,525 INFO    wandb-upload_1:3526 [upload_job.py:push():131] Uploaded file /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/files/requirements.txt
+2023-07-30 22:38:07,725 INFO    Thread-11 :3526 [sender.py:transition_state():612] send defer: 11
+2023-07-30 22:38:07,725 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: defer
+2023-07-30 22:38:07,726 INFO    HandlerThread:3526 [handler.py:handle_request_defer():170] handle defer: 11
+2023-07-30 22:38:07,726 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: defer
+2023-07-30 22:38:07,726 INFO    SenderThread:3526 [sender.py:send_request_defer():608] handle sender defer: 11
+2023-07-30 22:38:07,726 INFO    SenderThread:3526 [file_pusher.py:join():164] waiting for file pusher
+2023-07-30 22:38:07,727 INFO    SenderThread:3526 [sender.py:transition_state():612] send defer: 12
+2023-07-30 22:38:07,727 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: defer
+2023-07-30 22:38:07,727 INFO    HandlerThread:3526 [handler.py:handle_request_defer():170] handle defer: 12
+2023-07-30 22:38:07,727 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: defer
+2023-07-30 22:38:07,727 INFO    SenderThread:3526 [sender.py:send_request_defer():608] handle sender defer: 12
+2023-07-30 22:38:08,015 INFO    SenderThread:3526 [sender.py:transition_state():612] send defer: 13
+2023-07-30 22:38:08,015 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: defer
+2023-07-30 22:38:08,015 INFO    HandlerThread:3526 [handler.py:handle_request_defer():170] handle defer: 13
+2023-07-30 22:38:08,016 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: defer
+2023-07-30 22:38:08,016 INFO    SenderThread:3526 [sender.py:send_request_defer():608] handle sender defer: 13
+2023-07-30 22:38:08,016 INFO    SenderThread:3526 [sender.py:transition_state():612] send defer: 14
+2023-07-30 22:38:08,016 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: defer
+2023-07-30 22:38:08,016 INFO    HandlerThread:3526 [handler.py:handle_request_defer():170] handle defer: 14
+2023-07-30 22:38:08,016 DEBUG   SenderThread:3526 [sender.py:send():379] send: final
+2023-07-30 22:38:08,017 DEBUG   SenderThread:3526 [sender.py:send():379] send: footer
+2023-07-30 22:38:08,017 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: defer
+2023-07-30 22:38:08,017 INFO    SenderThread:3526 [sender.py:send_request_defer():608] handle sender defer: 14
+2023-07-30 22:38:08,018 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: poll_exit
+2023-07-30 22:38:08,018 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: server_info
+2023-07-30 22:38:08,018 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: get_summary
+2023-07-30 22:38:08,018 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: sampled_history
+2023-07-30 22:38:08,019 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: job_info
+2023-07-30 22:38:08,019 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: poll_exit
+2023-07-30 22:38:08,020 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: server_info
+2023-07-30 22:38:08,163 DEBUG   SenderThread:3526 [sender.py:send_request():406] send_request: job_info
+2023-07-30 22:38:08,164 DEBUG   HandlerThread:3526 [handler.py:handle_request():144] handle_request: shutdown
+2023-07-30 22:38:08,165 INFO    HandlerThread:3526 [handler.py:finish():857] shutting down handler
+2023-07-30 22:38:09,019 INFO    WriterThread:3526 [datastore.py:close():294] close: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_223035-w1sczv06/run-w1sczv06.wandb
+2023-07-30 22:38:09,164 INFO    SenderThread:3526 [sender.py:finish():1552] shutting down sender
+2023-07-30 22:38:09,164 INFO    SenderThread:3526 [file_pusher.py:finish():159] shutting down file pusher
+2023-07-30 22:38:09,164 INFO    SenderThread:3526 [file_pusher.py:join():164] waiting for file pusher

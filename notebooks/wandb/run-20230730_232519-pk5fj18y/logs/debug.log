@@ -1,0 +1,39 @@
+2023-07-30 23:25:19,179 INFO    MainThread:7859 [wandb_setup.py:_flush():76] Current SDK version is 0.15.7
+2023-07-30 23:25:19,180 INFO    MainThread:7859 [wandb_setup.py:_flush():76] Configure stats pid to 7859
+2023-07-30 23:25:19,180 INFO    MainThread:7859 [wandb_setup.py:_flush():76] Loading settings from /home/paperspace/.config/wandb/settings
+2023-07-30 23:25:19,180 INFO    MainThread:7859 [wandb_setup.py:_flush():76] Loading settings from /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/settings
+2023-07-30 23:25:19,180 INFO    MainThread:7859 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-07-30 23:25:19,180 INFO    MainThread:7859 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-07-30 23:25:19,180 INFO    MainThread:7859 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-07-30 23:25:19,180 INFO    MainThread:7859 [wandb_init.py:_log_setup():507] Logging user logs to /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_232519-pk5fj18y/logs/debug.log
+2023-07-30 23:25:19,180 INFO    MainThread:7859 [wandb_init.py:_log_setup():508] Logging internal logs to /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20230730_232519-pk5fj18y/logs/debug-internal.log
+2023-07-30 23:25:19,180 INFO    MainThread:7859 [wandb_init.py:_jupyter_setup():453] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f93782b84f0>
+2023-07-30 23:25:19,180 INFO    MainThread:7859 [wandb_init.py:init():547] calling init triggers
+2023-07-30 23:25:19,180 INFO    MainThread:7859 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {'input_shape': (256, 256, 3), 'patch_size': (2, 2), 'num_patch_x': 128, 'num_patch_y': 128, 'embed_dim': 64, 'num_heads': 4, 'window_size': 2, 'dropout_rate': 0.5, 'qkv_bias': True, 'num_mlp': 64, 'shift_size': 1, 'optim': <keras.optimizers.optimizer_v2.adam.Adam object at 0x7f93780704f0>, 'batch_size': 4}
+2023-07-30 23:25:19,181 INFO    MainThread:7859 [wandb_init.py:init():571] re-initializing run, found existing run on stack: 5z4fuyt3
+2023-07-30 23:25:19,183 INFO    MainThread:7859 [wandb_run.py:_finish():1888] finishing run yashchks87/mayo_strip_ai/5z4fuyt3
+2023-07-30 23:25:19,183 INFO    MainThread:7859 [wandb_run.py:_atexit_cleanup():2122] got exitcode: 0
+2023-07-30 23:25:19,183 INFO    MainThread:7859 [wandb_run.py:_restore():2105] restore
+2023-07-30 23:25:19,183 INFO    MainThread:7859 [wandb_run.py:_restore():2111] restore done
+2023-07-30 23:25:22,026 INFO    MainThread:7859 [wandb_run.py:_footer_history_summary_info():3475] rendering history
+2023-07-30 23:25:22,027 INFO    MainThread:7859 [wandb_run.py:_footer_history_summary_info():3507] rendering summary
+2023-07-30 23:25:22,031 INFO    MainThread:7859 [wandb_run.py:_footer_sync_info():3434] logging synced files
+2023-07-30 23:25:22,129 INFO    MainThread:7859 [wandb_init.py:init():596] starting backend
+2023-07-30 23:25:22,129 INFO    MainThread:7859 [wandb_init.py:init():600] setting up manager
+2023-07-30 23:25:22,131 INFO    MainThread:7859 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-07-30 23:25:22,131 INFO    MainThread:7859 [wandb_init.py:init():606] backend started and connected
+2023-07-30 23:25:22,134 INFO    MainThread:7859 [wandb_run.py:_label_probe_notebook():1234] probe notebook
+2023-07-30 23:25:22,134 INFO    MainThread:7859 [wandb_run.py:_label_probe_notebook():1244] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-07-30 23:25:22,134 INFO    MainThread:7859 [wandb_init.py:init():697] updated telemetry
+2023-07-30 23:25:22,183 INFO    MainThread:7859 [wandb_init.py:init():730] communicating run to backend with 60.0 second timeout
+2023-07-30 23:25:23,350 INFO    MainThread:7859 [wandb_run.py:_on_init():2174] communicating current version
+2023-07-30 23:25:23,383 INFO    MainThread:7859 [wandb_run.py:_on_init():2183] got version response 
+2023-07-30 23:25:23,383 INFO    MainThread:7859 [wandb_init.py:init():781] starting run threads in backend
+2023-07-30 23:25:23,423 INFO    MainThread:7859 [wandb_run.py:_console_start():2153] atexit reg
+2023-07-30 23:25:23,423 INFO    MainThread:7859 [wandb_run.py:_redirect():2008] redirect: wrap_raw
+2023-07-30 23:25:23,423 INFO    MainThread:7859 [wandb_run.py:_redirect():2073] Wrapping output streams.
+2023-07-30 23:25:23,423 INFO    MainThread:7859 [wandb_run.py:_redirect():2098] Redirects installed.
+2023-07-30 23:25:23,424 INFO    MainThread:7859 [wandb_init.py:init():822] run started, returning control to user process
+2023-07-30 23:57:28,862 INFO    MainThread:7859 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-07-30 23:57:28,862 INFO    MainThread:7859 [wandb_init.py:_pause_backend():418] pausing backend

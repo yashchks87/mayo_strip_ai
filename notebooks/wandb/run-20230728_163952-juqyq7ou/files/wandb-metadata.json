@@ -1,0 +1,84 @@
+{
+    "os": "Linux-5.4.0-153-generic-x86_64-with-glibc2.31",
+    "python": "3.9.16",
+    "heartbeatAt": "2023-07-28T16:40:00.141460",
+    "startedAt": "2023-07-28T16:39:52.322651",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/yashchks87/mayo_strip_ai.git",
+        "commit": "5ac09c486afb14e1d06306faabeea1481104219d"
+    },
+    "email": "yashchks87@gmail.com",
+    "root": "/home/paperspace/Documents/mayo_strip_ai",
+    "host": "ps2sxr1b9",
+    "username": "paperspace",
+    "executable": "/home/paperspace/Documents/tensor_env/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2599.99,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2599.99,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2599.99,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2599.99,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2599.99,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2599.99,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2599.99,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2599.99,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2599.99,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "total": 984.173267364502,
+        "used": 722.2864418029785
+    },
+    "gpu": "Quadro P4000",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "Quadro P4000",
+            "memory_total": 8589934592
+        }
+    ],
+    "memory": {
+        "total": 29.369911193847656
+    }
+}

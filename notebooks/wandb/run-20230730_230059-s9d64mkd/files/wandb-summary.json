@@ -1,0 +1,1 @@
+{"epoch/loss": 0.5907790064811707, "epoch/prec": 0.7250000238418579, "epoch/rec": 1.0, "epoch/val_loss": 0.6098908185958862, "epoch/val_prec": 0.7222222089767456, "epoch/val_rec": 1.0, "epoch/epoch": 52, "epoch/learning_rate": 0.0010000000474974513, "_timestamp": 1690758680.7488039, "_runtime": 620.9940359592438, "_step": 52, "_wandb": {"runtime": 630}}
