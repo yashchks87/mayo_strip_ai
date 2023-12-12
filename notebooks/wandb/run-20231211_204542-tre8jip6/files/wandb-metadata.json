@@ -1,0 +1,23 @@
+{
+    "os": "Linux-5.4.0-167-generic-x86_64-with-glibc2.31",
+    "python": "3.9.16",
+    "heartbeatAt": "2023-12-11T20:45:42.718766",
+    "startedAt": "2023-12-11T20:45:42.007918",
+    "docker": null,
+    "gpu": "Quadro P4000",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/yashchks87/mayo_strip_ai.git",
+        "commit": "05339b27b8ea88b1771a7bec32a5226a8e4767bd"
+    },
+    "email": "yashchks87@gmail.com",
+    "root": "/home/paperspace/Documents/mayo_strip_ai",
+    "host": "ps2sxr1b9",
+    "username": "paperspace",
+    "executable": "/usr/local/bin/python"
+}

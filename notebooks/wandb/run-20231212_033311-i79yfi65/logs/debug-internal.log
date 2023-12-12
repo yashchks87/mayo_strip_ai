@@ -1,0 +1,53 @@
+2023-12-12 03:33:11,555 INFO    StreamThr :60568 [internal.py:wandb_internal():88] W&B internal server running at pid: 60568, started at: 2023-12-12 03:33:11.551959
+2023-12-12 03:33:11,560 DEBUG   HandlerThread:60568 [handler.py:handle_request():138] handle_request: status
+2023-12-12 03:33:11,560 DEBUG   SenderThread:60568 [sender.py:send_request():317] send_request: status
+2023-12-12 03:33:11,566 DEBUG   SenderThread:60568 [sender.py:send():303] send: header
+2023-12-12 03:33:11,566 INFO    WriterThread:60568 [datastore.py:open_for_write():75] open: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20231212_033311-i79yfi65/run-i79yfi65.wandb
+2023-12-12 03:33:11,634 DEBUG   SenderThread:60568 [sender.py:send():303] send: run
+2023-12-12 03:33:12,102 DEBUG   HandlerThread:60568 [handler.py:handle_request():138] handle_request: check_version
+2023-12-12 03:33:12,108 INFO    SenderThread:60568 [dir_watcher.py:__init__():216] watching files in: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20231212_033311-i79yfi65/files
+2023-12-12 03:33:12,109 INFO    SenderThread:60568 [sender.py:_start_run_threads():928] run started: i79yfi65 with start time 1702351991.546674
+2023-12-12 03:33:12,109 DEBUG   SenderThread:60568 [sender.py:send():303] send: summary
+2023-12-12 03:33:12,109 INFO    SenderThread:60568 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-12 03:33:12,109 DEBUG   SenderThread:60568 [sender.py:send_request():317] send_request: check_version
+2023-12-12 03:33:12,233 DEBUG   HandlerThread:60568 [handler.py:handle_request():138] handle_request: run_start
+2023-12-12 03:33:12,245 DEBUG   HandlerThread:60568 [meta.py:__init__():34] meta init
+2023-12-12 03:33:12,246 DEBUG   HandlerThread:60568 [meta.py:__init__():49] meta init done
+2023-12-12 03:33:12,246 DEBUG   HandlerThread:60568 [meta.py:probe():215] probe
+2023-12-12 03:33:12,263 DEBUG   HandlerThread:60568 [meta.py:_setup_git():205] setup git
+2023-12-12 03:33:12,294 DEBUG   HandlerThread:60568 [meta.py:_setup_git():212] setup git done
+2023-12-12 03:33:12,295 DEBUG   HandlerThread:60568 [meta.py:_save_pip():53] save pip
+2023-12-12 03:33:12,297 DEBUG   HandlerThread:60568 [meta.py:_save_pip():67] save pip done
+2023-12-12 03:33:12,298 DEBUG   HandlerThread:60568 [meta.py:probe():253] probe done
+2023-12-12 03:33:12,753 DEBUG   SenderThread:60568 [sender.py:send():303] send: files
+2023-12-12 03:33:12,753 INFO    SenderThread:60568 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2023-12-12 03:33:12,770 DEBUG   HandlerThread:60568 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-12 03:33:12,771 DEBUG   SenderThread:60568 [sender.py:send_request():317] send_request: stop_status
+2023-12-12 03:33:12,976 DEBUG   SenderThread:60568 [sender.py:send():303] send: telemetry
+2023-12-12 03:33:13,111 INFO    Thread-13 :60568 [dir_watcher.py:_on_file_created():275] file/dir created: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20231212_033311-i79yfi65/files/wandb-metadata.json
+2023-12-12 03:33:13,112 INFO    Thread-13 :60568 [dir_watcher.py:_on_file_created():275] file/dir created: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20231212_033311-i79yfi65/files/requirements.txt
+2023-12-12 03:33:13,112 INFO    Thread-13 :60568 [dir_watcher.py:_on_file_created():275] file/dir created: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20231212_033311-i79yfi65/files/wandb-summary.json
+2023-12-12 03:33:13,209 INFO    Thread-17 :60568 [upload_job.py:push():143] Uploaded file /tmp/tmpjgbo0ee1wandb/o98zhz0p-wandb-metadata.json
+2023-12-12 03:33:15,110 INFO    Thread-13 :60568 [dir_watcher.py:_on_file_created():275] file/dir created: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20231212_033311-i79yfi65/files/output.log
+2023-12-12 03:33:17,113 INFO    Thread-13 :60568 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20231212_033311-i79yfi65/files/output.log
+2023-12-12 03:33:27,981 DEBUG   HandlerThread:60568 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-12 03:33:27,981 DEBUG   SenderThread:60568 [sender.py:send_request():317] send_request: stop_status
+2023-12-12 03:33:30,830 DEBUG   HandlerThread:60568 [handler.py:handle_request():138] handle_request: pause
+2023-12-12 03:33:30,830 INFO    HandlerThread:60568 [handler.py:handle_request_pause():696] stopping system metrics thread
+2023-12-12 03:33:30,927 DEBUG   SenderThread:60568 [sender.py:send():303] send: stats
+2023-12-12 03:33:31,124 INFO    Thread-13 :60568 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20231212_033311-i79yfi65/files/output.log
+2023-12-12 03:33:43,130 INFO    Thread-13 :60568 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20231212_033311-i79yfi65/files/config.yaml
+2023-12-12 03:33:43,177 DEBUG   HandlerThread:60568 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-12 03:33:43,178 DEBUG   SenderThread:60568 [sender.py:send_request():317] send_request: stop_status
+2023-12-12 03:33:58,432 DEBUG   HandlerThread:60568 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-12 03:33:58,432 DEBUG   SenderThread:60568 [sender.py:send_request():317] send_request: stop_status
+2023-12-12 03:34:13,676 DEBUG   HandlerThread:60568 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-12 03:34:13,676 DEBUG   SenderThread:60568 [sender.py:send_request():317] send_request: stop_status
+2023-12-12 03:34:28,891 DEBUG   HandlerThread:60568 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-12 03:34:28,891 DEBUG   SenderThread:60568 [sender.py:send_request():317] send_request: stop_status
+2023-12-12 03:34:44,074 DEBUG   HandlerThread:60568 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-12 03:34:44,075 DEBUG   SenderThread:60568 [sender.py:send_request():317] send_request: stop_status
+2023-12-12 03:34:59,221 DEBUG   HandlerThread:60568 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-12 03:34:59,221 DEBUG   SenderThread:60568 [sender.py:send_request():317] send_request: stop_status
+2023-12-12 03:35:14,387 DEBUG   HandlerThread:60568 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-12 03:35:14,387 DEBUG   SenderThread:60568 [sender.py:send_request():317] send_request: stop_status

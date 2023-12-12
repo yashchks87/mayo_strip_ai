@@ -1,0 +1,38 @@
+2023-12-11 20:45:11,558 INFO    StreamThr :133893 [internal.py:wandb_internal():88] W&B internal server running at pid: 133893, started at: 2023-12-11 20:45:11.556594
+2023-12-11 20:45:11,565 DEBUG   HandlerThread:133893 [handler.py:handle_request():138] handle_request: status
+2023-12-11 20:45:11,565 DEBUG   SenderThread:133893 [sender.py:send_request():317] send_request: status
+2023-12-11 20:45:11,567 DEBUG   SenderThread:133893 [sender.py:send():303] send: header
+2023-12-11 20:45:11,567 INFO    WriterThread:133893 [datastore.py:open_for_write():75] open: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20231211_204511-2sk49tnz/run-2sk49tnz.wandb
+2023-12-11 20:45:11,744 DEBUG   SenderThread:133893 [sender.py:send():303] send: run
+2023-12-11 20:45:12,503 DEBUG   HandlerThread:133893 [handler.py:handle_request():138] handle_request: check_version
+2023-12-11 20:45:12,510 INFO    SenderThread:133893 [dir_watcher.py:__init__():216] watching files in: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20231211_204511-2sk49tnz/files
+2023-12-11 20:45:12,510 INFO    SenderThread:133893 [sender.py:_start_run_threads():928] run started: 2sk49tnz with start time 1702327511.547467
+2023-12-11 20:45:12,510 DEBUG   SenderThread:133893 [sender.py:send():303] send: summary
+2023-12-11 20:45:12,511 INFO    SenderThread:133893 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-12-11 20:45:12,511 DEBUG   SenderThread:133893 [sender.py:send_request():317] send_request: check_version
+2023-12-11 20:45:12,592 DEBUG   HandlerThread:133893 [handler.py:handle_request():138] handle_request: run_start
+2023-12-11 20:45:12,603 DEBUG   HandlerThread:133893 [meta.py:__init__():34] meta init
+2023-12-11 20:45:12,603 DEBUG   HandlerThread:133893 [meta.py:__init__():49] meta init done
+2023-12-11 20:45:12,603 DEBUG   HandlerThread:133893 [meta.py:probe():215] probe
+2023-12-11 20:45:12,616 DEBUG   HandlerThread:133893 [meta.py:_setup_git():205] setup git
+2023-12-11 20:45:12,631 DEBUG   HandlerThread:133893 [meta.py:_setup_git():212] setup git done
+2023-12-11 20:45:12,631 DEBUG   HandlerThread:133893 [meta.py:_save_pip():53] save pip
+2023-12-11 20:45:12,632 DEBUG   HandlerThread:133893 [meta.py:_save_pip():67] save pip done
+2023-12-11 20:45:12,632 DEBUG   HandlerThread:133893 [meta.py:probe():253] probe done
+2023-12-11 20:45:13,091 DEBUG   SenderThread:133893 [sender.py:send():303] send: files
+2023-12-11 20:45:13,091 INFO    SenderThread:133893 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2023-12-11 20:45:13,101 DEBUG   HandlerThread:133893 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-11 20:45:13,102 DEBUG   SenderThread:133893 [sender.py:send_request():317] send_request: stop_status
+2023-12-11 20:45:13,312 DEBUG   SenderThread:133893 [sender.py:send():303] send: telemetry
+2023-12-11 20:45:13,512 INFO    Thread-13 :133893 [dir_watcher.py:_on_file_created():275] file/dir created: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20231211_204511-2sk49tnz/files/wandb-metadata.json
+2023-12-11 20:45:13,513 INFO    Thread-13 :133893 [dir_watcher.py:_on_file_created():275] file/dir created: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20231211_204511-2sk49tnz/files/requirements.txt
+2023-12-11 20:45:13,513 INFO    Thread-13 :133893 [dir_watcher.py:_on_file_created():275] file/dir created: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20231211_204511-2sk49tnz/files/output.log
+2023-12-11 20:45:13,513 INFO    Thread-13 :133893 [dir_watcher.py:_on_file_created():275] file/dir created: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20231211_204511-2sk49tnz/files/wandb-summary.json
+2023-12-11 20:45:13,638 INFO    Thread-17 :133893 [upload_job.py:push():143] Uploaded file /tmp/tmpx12kbaczwandb/6b9oyifj-wandb-metadata.json
+2023-12-11 20:45:15,511 INFO    Thread-13 :133893 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20231211_204511-2sk49tnz/files/output.log
+2023-12-11 20:45:18,778 DEBUG   HandlerThread:133893 [handler.py:handle_request():138] handle_request: pause
+2023-12-11 20:45:18,779 INFO    HandlerThread:133893 [handler.py:handle_request_pause():696] stopping system metrics thread
+2023-12-11 20:45:18,808 DEBUG   SenderThread:133893 [sender.py:send():303] send: stats
+2023-12-11 20:45:19,513 INFO    Thread-13 :133893 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/paperspace/Documents/mayo_strip_ai/notebooks/wandb/run-20231211_204511-2sk49tnz/files/output.log
+2023-12-11 20:45:28,350 DEBUG   HandlerThread:133893 [handler.py:handle_request():138] handle_request: stop_status
+2023-12-11 20:45:28,350 DEBUG   SenderThread:133893 [sender.py:send_request():317] send_request: stop_status

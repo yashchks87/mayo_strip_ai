@@ -1,0 +1,120 @@
+
+
+
+
+  0%|          | 0/20 [00:13<?, ?batch/s, loss=0.793, prec=1, rec=0.5]
+  0%|          | 0/3 [00:00<?, ?batch/s]
+Train loss: 0.5960501492023468
+Train prec: 1.0
+  0%|          | 0/3 [00:02<?, ?batch/s, loss=0.68, prec=1, rec=0.583]
+  0%|          | 0/20 [00:00<?, ?batch/s]
+Train loss: 0.6710636814435323
+Train prec: 1.0
+
+
+
+
+  0%|          | 0/20 [00:09<?, ?batch/s, loss=0.564, prec=1, rec=0.75]
+Train loss: 0.5983117267489433
+Train prec: 0.9984375
+  0%|          | 0/20 [00:10<?, ?batch/s, loss=0.858, prec=1, rec=0.5]
+  0%|          | 0/3 [00:00<?, ?batch/s]
+Train loss: 0.6672055522600809
+Train prec: 1.0
+  0%|          | 0/3 [00:02<?, ?batch/s, loss=0.691, prec=1, rec=0.583]
+
+
+
+  0%|          | 0/20 [00:10<?, ?batch/s, loss=0.752, prec=1, rec=0.5]
+  0%|          | 0/3 [00:00<?, ?batch/s]
+Train loss: 0.598445113003254
+Train prec: 1.0
+
+  0%|          | 0/3 [00:02<?, ?batch/s, loss=0.724, prec=1, rec=0.5]
+Train loss: 0.6332530776659647
+Train prec: 0.9895833333333334
+  0%|          | 0/3 [00:02<?, ?batch/s, loss=0.526, prec=1, rec=0.917]
+
+
+
+
+  0%|          | 0/20 [00:09<?, ?batch/s, loss=0.623, prec=1, rec=0.688]
+Train loss: 0.5781002372503281
+Train prec: 0.996875
+  0%|          | 0/20 [00:10<?, ?batch/s, loss=0.312, prec=1, rec=1]
+  0%|          | 0/3 [00:02<?, ?batch/s, loss=0.737, prec=1, rec=0.667]
+  0%|          | 0/20 [00:00<?, ?batch/s]
+Train loss: 0.7922278443972269
+Train prec: 1.0
+
+
+
+  0%|          | 0/20 [00:10<?, ?batch/s, loss=0.321, prec=1, rec=1]
+  0%|          | 0/3 [00:00<?, ?batch/s]
+Train loss: 0.5760339722037315
+Train prec: 1.0
+Train rec: 0.7453125
+Train loss: 0.7510987520217896
+Train prec: 1.0
+  0%|          | 0/3 [00:02<?, ?batch/s, loss=0.604, prec=1, rec=0.75]
+
+
+
+
+  0%|          | 0/20 [00:10<?, ?batch/s, loss=0.823, prec=1, rec=0.5]
+  0%|          | 0/3 [00:00<?, ?batch/s]
+Train loss: 0.5964333489537239
+Train prec: 1.0
+  0%|          | 0/3 [00:02<?, ?batch/s, loss=0.739, prec=1, rec=0.5]
+  0%|          | 0/20 [00:00<?, ?batch/s]
+Train loss: 0.6897961298624674
+Train prec: 0.9375
+
+
+
+
+  0%|          | 0/20 [00:09<?, ?batch/s, loss=0.632, prec=1, rec=0.688]
+Train loss: 0.5947177410125732
+Train prec: 1.0
+  0%|          | 0/20 [00:10<?, ?batch/s, loss=0.782, prec=1, rec=0.5]
+  0%|          | 0/3 [00:02<?, ?batch/s, loss=0.724, prec=0.667, rec=0.583]
+  0%|          | 0/20 [00:00<?, ?batch/s]
+Train loss: 0.6891709764798483
+Train prec: 0.8055555621782938
+
+
+
+  0%|          | 0/20 [00:10<?, ?batch/s, loss=0.852, prec=1, rec=0.5]
+  0%|          | 0/3 [00:00<?, ?batch/s]
+Train loss: 0.6014274448156357
+Train prec: 0.996875
+
+  0%|          | 0/3 [00:02<?, ?batch/s, loss=0.649, prec=1, rec=0.656]
+Train loss: 0.6736997365951538
+Train prec: 0.9340277711550394
+  0%|          | 0/3 [00:02<?, ?batch/s, loss=0.703, prec=0.833, rec=0.583]
+
+
+
+
+  0%|          | 0/20 [00:10<?, ?batch/s, loss=0.8, prec=1, rec=0.5]
+  0%|          | 0/3 [00:00<?, ?batch/s]
+Train loss: 0.6000675827264785
+Train prec: 0.9984375
+  0%|          | 0/3 [00:02<?, ?batch/s, loss=0.645, prec=1, rec=0.667]
+  0%|          | 0/20 [00:00<?, ?batch/s]
+Train loss: 0.6625991463661194
+Train prec: 0.96875
+
+
+
+
+  0%|          | 0/20 [00:09<?, ?batch/s, loss=0.597, prec=1, rec=0.719]
+Train loss: 0.6005282819271087
+Train prec: 0.996875
+  0%|          | 0/20 [00:10<?, ?batch/s, loss=0.906, prec=1, rec=0.5]
+
+  0%|          | 0/3 [00:02<?, ?batch/s, loss=1.72, prec=0, rec=0]
+Train loss: 2.0158498684565225
+Train prec: 0.0
+Train rec: 0.0
